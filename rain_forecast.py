@@ -67,12 +67,14 @@ def main():
             predict_result = (int(forecasting))
             forecast_proba = forecaster.predict_proba(input_data)[:,1]
             proba_result = (str((np.around(float(forecast_proba),3)*100)) + '%')
-            def get_result(predict_result):
+            def get(predict_result):
+                result = str()
                 if predict_result == 0:
-                    print('Not Rain')
-                elif predict_result == 1:
-                    print('Will be Rain')
-            st.subheader('Prediction for Tomorrow is : ' + str(get_result(predict_result)))
+                    result +='Not Rain'
+                else:
+                    result += 'Will be Rain'
+                return result
+            st.subheader('Prediction for Tomorrow is : ' + get_result(predict_result)))
             st.subheader('The Probability for that event happen is :' + proba_result)
 
     
