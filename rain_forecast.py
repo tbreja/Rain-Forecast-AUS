@@ -74,7 +74,7 @@ def main():
                 else:
                     result += 'Will be Rain'
                 return result
-            st.subheader('Prediction for Tomorrow is : ' + get_result(predict_result)))
+            st.subheader('Prediction for Tomorrow is : ' + get(predict_result))
             st.subheader('The Probability for that event happen is :' + proba_result)
 
     
