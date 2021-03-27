@@ -9,7 +9,6 @@ import seaborn as sns
 import pickle 
 import joblib
 
-@st.chache
 
 def load(dataset):
     data = pd.read_csv(dataset)
