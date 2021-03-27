@@ -9,6 +9,7 @@ import seaborn as sns
 import pickle 
 import joblib
 
+@st.chache
 
 def load(dataset):
     data = pd.read_csv(dataset)
@@ -74,4 +75,7 @@ def main():
             st.subheader('Prediction for Tomorrow is : ', get_result(forecasting))
             st.subheader('The Probability for that event happen is :' + proba_result)
 
+    
+if __name__ == '__main__':
+    main()
 
