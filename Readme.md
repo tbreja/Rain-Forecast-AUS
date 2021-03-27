@@ -3,6 +3,6 @@ The objective about this project is to predict wheter tomorrow willbe rain or no
 The Dataset is from Daily weather observations from multiple locations around Australia, obtained from the Australian Commonwealth Bureau of Meteorology and processed to create this realtively large sample dataset for illustrating analytics. 
 If you want to see more detail about this project, click this link below:
 
-Link = 'https://github.com/tbreja/Rain-Forecast-AUS.git'
+App Link = https://rain-forecast-app.herokuapp.com/
  
-Linkedin = 'https://www.linkedin.com/in/tbreja/' 
+Linkedin = https://www.linkedin.com/in/tbreja/ 
