@@ -15,14 +15,13 @@ def load(dataset):
     return data
 
 image = Image.open('rain_image.jpg')
-Context = """The objective about this project is to predict wheter tomorrow willbe rain or not default based on several parameters. Because I am not an expert in meteorology and climatology domain, to prevent bias in choosing the threshold, I will make the result of this app from binary classification to percentage of posibilty default. With this simple app, the banker or guarantor will be more efficient to predict which application should be accepted or declined.
-The dataset is from the U.S. Small Business Administration (SBA) The U.S. SBA was founded in 1953 on the principle of promoting and assisting small enterprises in the U.S. credit market (SBA Overview and History, US Small Business Administration (2015)). Small businesses have been a primary source of job creation in the United States; therefore, fostering small business formation and growth has social benefits by creating job opportunities and reducing unemployment. 
-There have been many success stories of start-ups receiving SBA loan guarantees such as FedEx and Apple Computer. However, there have also been stories of small businesses or start-ups that have defaulted on their SBA guaranteed loans. \n Small business owners often seek out SBA (Small Business Association) loans because they guarantee part of the loan. Without going into too much detail, this basically means that the SBA will cover some of the losses should the business default on the loan, which lowers the risk involved for the business owner(s). This increases the risk to the SBA however, which can sometimes make it difficult to get accepted for one of their loan programs.
+Context = """The objective about this project is to predict wheter tomorrow willbe rain or not default based on several parameters. Because I am not an expert in meteorology and climatology domain, to prevent bias in choosing the threshold, I will make the result of this app beside from binary classification also add a percentage of posibilty default. With this simple app, People will be more easy to predict will be rain or not tomorrow.
+Daily weather observations from multiple locations around Australia, obtained from the Australian Commonwealth Bureau of Meteorology and processed to create this realtively large sample dataset for illustrating analytics. 
 This project is end to end data science projcet (kinda), from Data Preparation, Modeling, Evaluating, Tunning until Deployment. If you want to see more detail about this project, click this link below:"""
 
-Link = 'https://github.com/farrasalyafi/sba_loan_default_prediction'
+Link = 'https://github.com/tbreja/Rain-Forecast-AUS.git'
 
-Linkedin = 'https://www.linkedin.com/in/muhammad-farras/'
+Linkedin = 'https://www.linkedin.com/in/tbreja/'
 
 # Main APP
 def main():
@@ -52,7 +51,7 @@ def main():
         Pressure3pm = st.slider('How much Atmospheric pressure at 3 pm ? (hpa)', 980, 1050)
         Cloud3pm = st.slider('How much Fraction of Sky obscured by cloud at 3 pm? (oktas)',0,8)
         st.write('Observation on other Parameters')
-        WindSpeed = st.slider('The Speed of strongest wind in the 24 hours ? (km/h)'0,100)
+        WindSpeed = st.slider('The Speed of strongest wind in the 24 hours ? (km/h)',0,100)
         Sunshine = st.slider('The number of hours of bright sunshine in the day ?', 0,24)
         Rainfall = st.slider('The ammount of rainfall recorder in the last 24 hours ? (mm)', 0,200)
         MinTemp = st.slider('The minimum temperature recorded in the last 24 hours', -10,40)
