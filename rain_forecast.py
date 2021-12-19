@@ -27,7 +27,7 @@ Linkedin = 'https://www.linkedin.com/in/tbreja/'
 def main():
     """Simple Rain Forecast"""  
     st.title('Rain Forecast App')
-    st.write('By : Tubagus Moh Reja')
+    st.write('By : Tubagus Moh Reja & Dhafinda Diakinan')
 
     # Menu
     menu = ['Prediction', 'About this App']
