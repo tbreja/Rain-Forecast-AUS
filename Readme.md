@@ -5,5 +5,4 @@ If you want to see more detail about this project, click this link below:
 
 App Link = https://rain-forecast-app.herokuapp.com/
  
-Linkedin = https://www.linkedin.com/in/tbreja/ 
-           https://www.linkedin.com/in/DhafindaDiakinan
+Linkedin = https://www.linkedin.com/in/tbreja/ & https://www.linkedin.com/in/DhafindaDiakinan
